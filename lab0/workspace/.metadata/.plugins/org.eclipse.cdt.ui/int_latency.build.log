@@ -1,0 +1,14 @@
+
+**** Clean-only build of configuration Debug for project int_latency ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "int_latency.out"  "int_latency.hex" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\int_latency\Debug\int_latency.out
+DEL /F "lm3s8962_startup_ccs.pp" "main.pp" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\int_latency\Debug\lm3s8962_startup_ccs.pp
+DEL /F "lm3s8962_startup_ccs.obj" "main.obj" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\int_latency\Debug\lm3s8962_startup_ccs.obj
+'Finished clean'
+' '
+
+**** Build Finished ****

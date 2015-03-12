@@ -1,0 +1,31 @@
+
+**** Build of configuration Debug for project Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k -j 8 all 
+        1 file(s) copied.
+making ../src/sysbios/sysbios.aem3 ...
+'Building file: ../app.cfg'
+'Invoking: XDCtools'
+"c:/ti/xdctools_3_30_03_47_core/xs" --xdcpath="C:/ti/bios_6_41_00_26/packages;c:/ti/ccsv6/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -p ti.platforms.stellaris:LM3S8962 -r release -c "c:/ti/ccsv6/tools/compiler/arm_5.1.8" --compileOptions "-g --optimize_with_debug" "../app.cfg"
+gmake[1]: Entering directory `C:/Users/Harold/Documents/School Work/ECE/ECE 3849/labs/lab0/workspace/Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/Users/Harold/Documents/School Work/ECE/ECE 3849/labs/lab0/workspace/Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek/src/sysbios'
+configuring app.xem3 from package/cfg/app_pem3.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/Users/Harold/DOCUME~1/SCHOOL~1/ECE/ECE384~1/labs/lab0/WORKSP~1/COPYOF~2/src/sysbios/sysbios.aem3 ...
+gmake[1]: Entering directory `C:/Users/Harold/DOCUME~1/SCHOOL~1/ECE/ECE384~1/labs/lab0/WORKSP~1/COPYOF~2/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `C:/Users/Harold/DOCUME~1/SCHOOL~1/ECE/ECE384~1/labs/lab0/WORKSP~1/COPYOF~2/src/sysbios'
+Build of libraries done.
+clem3 package/cfg/app_pem3.c ...
+'Finished building: ../app.cfg'
+' '
+'Building target: Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek.out'
+'Invoking: ARM Linker'
+"c:/ti/ccsv6/tools/compiler/arm_5.1.8/bin/armcl" -mv7M3 --code_state=16 --abi=eabi -me -g --gcc --define="ccs" --define=PART_LM3S8962 --display_error_number --diag_warning=225 --diag_wrap=off -z -m"Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek.map" --heap_size=0 --stack_size=2048 -i"c:/ti/ccsv6/tools/compiler/arm_5.1.8/lib" -i"c:/ti/ccsv6/tools/compiler/arm_5.1.8/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek_linkInfo.xml" --rom_model -o "Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek.out" -l"./configPkg/linker.cmd"  "./buttons.obj" "./frame_graphics.obj" "./kiss_fft.obj" "./main.obj" "./network.obj" "./rit128x96x4.obj" "./ustdlib.obj" "../LM3S8962.cmd" -l"libc.a" -l"C:\StellarisWare/driverlib/ccs-cm3/Debug/driverlib-cm3.lib" 
+<Linking>
+'Finished building target: Copy of ece3849b14_lab2_2_hfloreshuerta_ardymek.out'
+' '
+
+**** Build Finished ****

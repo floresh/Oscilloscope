@@ -1,0 +1,14 @@
+
+**** Clean-only build of configuration Debug for project blinky ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "blinky.out" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\blinky\Debug\blinky.out
+DEL /F "blinky.pp" "startup_ccs.pp" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\blinky\Debug\blinky.pp
+DEL /F "blinky.obj" "startup_ccs.obj" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\blinky\Debug\blinky.obj
+'Finished clean'
+' '
+
+**** Build Finished ****

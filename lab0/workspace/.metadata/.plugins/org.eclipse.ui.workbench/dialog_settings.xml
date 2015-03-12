@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="1440" key="dialogWidth"/>
+		<item value="759" key="dialogHeight"/>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+		</list>
+		<list key="textArray">
+			<item value="register"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.navigate.showIn(org.eclipse.ui.navigate.showIn.targetId=org.eclipse.debug.ui.RegisterView)"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\ece3849b14_lab3_hfloreshuerta_ardymek.zip"/>
+			<item value="C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\ece3849b14_lab2_hfloreshuerta_ardymek.zip"/>
+			<item value="C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab1\ece3849a14_lab1_hfloreshuerta_ardymek.zip"/>
+			<item value="C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\ece3849b14_lab0_hfloreshuerta_ardymek.zip"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+</section>

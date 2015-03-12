@@ -1,0 +1,19 @@
+
+**** Clean-only build of configuration Debug for project ece3849b14_lab2_hfloreshuerta_ardymek ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k -j 8 clean 
+cleaning ../src/sysbios ...
+DEL /F  "ece3849b14_lab2_hfloreshuerta_ardymek.out"  "configPkg\linker.cmd" "configPkg\compiler.opt"  "ece3849b14_lab2_hfloreshuerta_ardymek.hex" 
+The system cannot find the file specified.
+gmake: [clean] Error 1 (ignored)
+RMDIR /S/Q  "configPkg\" 
+The system cannot find the file specified.
+gmake: [clean] Error 2 (ignored)
+DEL /F "buttons.pp" "frame_graphics.pp" "main.pp" "rit128x96x4.pp" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab2\Debug\buttons.pp
+DEL /F "buttons.obj" "frame_graphics.obj" "main.obj" "rit128x96x4.obj" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab2\Debug\buttons.obj
+'Finished clean'
+' '
+
+**** Build Finished ****

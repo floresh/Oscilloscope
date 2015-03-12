@@ -1,0 +1,1 @@
+-l"./configPkg/linker.cmd" "./buttons.obj" "./frame_graphics.obj" "./kiss_fft.obj" "./main.obj" "./rit128x96x4.obj" "./ustdlib.obj" "../LM3S8962.cmd" -l"libc.a" -l"C:\StellarisWare/driverlib/ccs-cm3/Debug/driverlib-cm3.lib" 

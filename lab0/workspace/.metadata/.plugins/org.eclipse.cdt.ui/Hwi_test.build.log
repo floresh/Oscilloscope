@@ -1,0 +1,47 @@
+
+**** Build of configuration Debug for project Hwi_test ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"c:/ti/ccsv6/tools/compiler/arm_5.1.8/bin/armcl" -mv7M3 --code_state=16 --abi=eabi -me --include_path="c:/ti/ccsv6/tools/compiler/arm_5.1.8/include" -g --gcc --define="ccs" --define=PART_LM3S8962 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp" --cmd_file="./configPkg/compiler.opt"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building file: ../app.cfg'
+'Invoking: XDCtools'
+"c:/ti/xdctools_3_30_03_47_core/xs" --xdcpath="C:/ti/bios_6_41_00_26/packages;c:/ti/ccsv6/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -p ti.platforms.stellaris:LM3S8962 -r release -c "c:/ti/ccsv6/tools/compiler/arm_5.1.8" --compileOptions "-g --optimize_with_debug" "../app.cfg"
+configuring app.xem3 from package/cfg/app_pem3.cfg ...
+generating custom ti.sysbios library makefile ... 
+Starting build of library sources ...
+making C:/Users/Harold/DOCUME~1/SCHOOL~1/ECE/ECE384~1/labs/test/src/sysbios/sysbios.aem3 ...
+gmake[1]: Entering directory `C:/Users/Harold/DOCUME~1/SCHOOL~1/ECE/ECE384~1/labs/test/src/sysbios'
+clem3 C:/ti/bios_6_41_00_26/packages/ti/sysbios/BIOS.c ...
+asmem3 C:/ti/bios_6_41_00_26/packages/ti/sysbios/family/arm/m3/Hwi_asm.sv7M ...
+asmem3 C:/ti/bios_6_41_00_26/packages/ti/sysbios/family/arm/m3/Hwi_asm_switch.sv7M ...
+asmem3 C:/ti/bios_6_41_00_26/packages/ti/sysbios/family/arm/m3/IntrinsicsSupport_asm.sv7M ...
+asmem3 C:/ti/bios_6_41_00_26/packages/ti/sysbios/family/arm/m3/TaskSupport_asm.sv7M ...
+arem3 BIOS.obj m3_Hwi_asm.obj m3_Hwi_asm_switch.obj m3_IntrinsicsSupport_asm.obj m3_TaskSupport_asm.obj ...
+gmake[1]: Leaving directory `C:/Users/Harold/DOCUME~1/SCHOOL~1/ECE/ECE384~1/labs/test/src/sysbios'
+Build of libraries done.
+clem3 package/cfg/app_pem3.c ...
+'Finished building: ../app.cfg'
+' '
+'Building target: Hwi_test.out'
+'Invoking: ARM Linker'
+"c:/ti/ccsv6/tools/compiler/arm_5.1.8/bin/armcl" -mv7M3 --code_state=16 --abi=eabi -me -g --gcc --define="ccs" --define=PART_LM3S8962 --display_error_number --diag_warning=225 --diag_wrap=off -z -m"Hwi_test.map" --heap_size=0 --stack_size=512 -i"c:/ti/ccsv6/tools/compiler/arm_5.1.8/lib" -i"c:/ti/ccsv6/tools/compiler/arm_5.1.8/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="Hwi_test_linkInfo.xml" --rom_model -o "Hwi_test.out" -l"./configPkg/linker.cmd"  "./main.obj" "../LM3S8962.cmd" -l"libc.a" 
+<Linking>
+warning #10229-D: output section ".data" refers to load symbol "ADC_Hwi" and hence cannot be compressed; compression "rle" is ignored
+
+ undefined first referenced                                                                                      
+  symbol       in file                                                                                           
+
+ --------- ----------------                                                                                      
+>> Compilation failure
+ ADC_Hwi   C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\test\Debug\configPkg\package\cfg\app_pem3.oem3
+
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Hwi_test.out" not built
+gmake: *** [Hwi_test.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

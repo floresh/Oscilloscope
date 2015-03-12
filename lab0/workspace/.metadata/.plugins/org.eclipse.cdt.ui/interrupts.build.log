@@ -1,0 +1,16 @@
+
+**** Clean-only build of configuration Debug for project interrupts ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "interrupts.out" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\interrupts\Debug\interrupts.out
+DEL /F "interrupts.pp" "startup_ccs.pp" "drivers\rit128x96x4.pp" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\interrupts\Debug\interrupts.pp
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\interrupts\Debug\drivers\rit128x96x4.pp
+DEL /F "interrupts.obj" "startup_ccs.obj" "drivers\rit128x96x4.obj" 
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\interrupts\Debug\interrupts.obj
+Could Not Find C:\Users\Harold\Documents\School Work\ECE\ECE 3849\labs\lab0\workspace\interrupts\Debug\drivers\rit128x96x4.obj
+'Finished clean'
+' '
+
+**** Build Finished ****

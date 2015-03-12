@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project ece3849b14_lab3_hfloreshuerta_ardymek ****
+
+"c:\\ti\\ccsv6\\utils\\bin\\gmake" -k -j 8 all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"c:/ti/ccsv6/tools/compiler/arm_5.1.8/bin/armcl" -mv7M3 --code_state=16 --abi=eabi -me --include_path="c:/ti/ccsv6/tools/compiler/arm_5.1.8/include" --include_path="C:/StellarisWare/boards/ek-lm3s8962" --include_path="C:/StellarisWare" -g --gcc --define="ccs" --define=PART_LM3S2110 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"..\lm3s2110.h", line 2542: warning #48-D: incompatible redefinition of macro "SYSCTL_RCC_XTAL_M" (declared at line 908 of "C:/StellarisWare/inc/hw_sysctl.h")
+'Finished building: ../main.c'
+' '
+'Building target: ece3849b14_lab3_hfloreshuerta_ardymek.out'
+'Invoking: ARM Linker'
+"c:/ti/ccsv6/tools/compiler/arm_5.1.8/bin/armcl" -mv7M3 --code_state=16 --abi=eabi -me -g --gcc --define="ccs" --define=PART_LM3S2110 --display_error_number --diag_warning=225 --diag_wrap=off -z -m"ece3849b14_lab3_hfloreshuerta_ardymek.map" --heap_size=0 --stack_size=512 -i"c:/ti/ccsv6/tools/compiler/arm_5.1.8/lib" -i"c:/ti/ccsv6/tools/compiler/arm_5.1.8/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="ece3849b14_lab3_hfloreshuerta_ardymek_linkInfo.xml" --rom_model -o "ece3849b14_lab3_hfloreshuerta_ardymek.out"  "./lm3s2110_startup_ccs.obj" "./main.obj" "./network.obj" "../lm3s2110.cmd" -l"libc.a" -l"C:\StellarisWare/driverlib/ccs-cm3/Debug/driverlib-cm3.lib" 
+<Linking>
+'Finished building target: ece3849b14_lab3_hfloreshuerta_ardymek.out'
+' '
+
+**** Build Finished ****

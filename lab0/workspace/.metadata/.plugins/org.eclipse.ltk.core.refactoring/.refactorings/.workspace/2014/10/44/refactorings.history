@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ece3849b14_lab0_hfloreshuerta_ardymek/startup_ccs.c&apos;" deleteContents="false" description="Delete resource &apos;ece3849b14_lab0_hfloreshuerta_ardymek/startup_ccs.c&apos;" element1="/ece3849b14_lab0_hfloreshuerta_ardymek/startup_ccs.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1414736729193"/>
+</session>
