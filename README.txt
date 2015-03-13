@@ -1,7 +1,6 @@
-# Oscilloscope
-Authors: 	 Heric Flores-Huerta & Alexander Dymek
+Authors: Heric Flores-Huerta & Alexander Dymek
 
-Date:	     12/18/2014
+Date: 12/18/2014
 
 ECE Class: Real-Time Embedded Systems
 
@@ -15,13 +14,8 @@ Using the C programming Language we built a functional oscilloscope on an Texas 
 
 Files:
 
-lab0/workspace/lab0:  This is an simple project to introduce board functionality
-
-lab1/workspace:       Implementation of oscilloscope written in C
-
-lab0/workspace/lab2:  This project takes lab1 and ports it over to an RTOS (SYS/BIOS) and adds FFT Specturm Analyzer
-
-lab0/workspace/lab3:  Continuation of the above project and adds a CAN interface to the LM3S2110 which runs a frequency analyzer
-
+lab0/workspace/lab0: This is an simple project to introduce board functionality
+lab1/workspace: Implementation of oscilloscope written in C
+lab0/workspace/lab2: This project takes lab1 and ports it over to an RTOS (SYS/BIOS) and adds FFT Specturm Analyzer
+lab0/workspace/lab3: Continuation of the above project and adds a CAN interface to the LM3S2110 which runs a frequency analyzer
 lab0/workspace/lab3_2:Program files for LM3S2110 from above project
-
