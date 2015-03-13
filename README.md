@@ -1,7 +1,9 @@
 # Oscilloscope
-Authors: 	Heric Flores-Huerta & Alexander Dymek
-Date:	    12/18/2014
-ECE Class:Real-Time Embedded Systems
+Authors: 	 Heric Flores-Huerta & Alexander Dymek
+
+Date:	     12/18/2014
+
+ECE Class: Real-Time Embedded Systems
 
 Project Description:
 
