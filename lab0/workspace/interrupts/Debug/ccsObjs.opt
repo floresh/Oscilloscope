@@ -1,1 +1,0 @@
-"./interrupts.obj" "./startup_ccs.obj" "./drivers/rit128x96x4.obj" "../interrupts_ccs.cmd" -l"libc.a" -l"C:/StellarisWare/boards/ek-lm3s8962/interrupts/ccs/../../../../driverlib/ccs-cm3/Debug/driverlib-cm3.lib" 

@@ -1,1 +1,0 @@
-"./lm3s8962_startup_ccs.obj" "./main.obj" "../lm3s8962.cmd" -l"libc.a" 
